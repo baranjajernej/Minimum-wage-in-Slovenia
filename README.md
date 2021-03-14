@@ -1,0 +1,2 @@
+# Minimum-wage-in-Slovenia
+ 
