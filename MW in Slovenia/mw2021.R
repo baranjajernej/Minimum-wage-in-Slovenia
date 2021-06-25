@@ -38,7 +38,7 @@ cleanmw %>%
   geom_col(show.legend = FALSE) +
   geom_text(aes(label = wage), vjust = -0.6, size = 3) +
   labs(title = "Minimum wage in Slovenia 2008 - 2021",
-       caption = "Source: Eurostat", 
+       caption = "Data source: Eurostat", 
        y = "Minimum wage in Slovenia in €", 
        x = "Years: 2008 - 2021") +
   transition_states(year, state_length = 3)
